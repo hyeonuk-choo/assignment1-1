@@ -1,0 +1,58 @@
+.todos-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo {
+  border: #0a8a8a solid 3px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 7px;
+  width: 270px;
+  height: 150px;
+}
+
+.btn1 {
+  border: red solid 2px;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  margin-right: 7px;
+}
+
+.btn2 {
+  border: green solid 2px;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  margin-right: 7px;
+}
+
+.btn1:hover {
+  border: red solid 3px;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  border: green solid 3px;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.mybtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
